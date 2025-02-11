@@ -73,3 +73,14 @@ CREATE TABLE `walmart_data`.`sales`(
     FOREIGN KEY(`CustomerID`) REFERENCES `walmart_data`.`customers`(`CustomerID`),
     FOREIGN KEY(`ProductID`) REFERENCES `walmart_data`.`products`(`ProductID`)
 );
+
+UPDATE `walmart_data`.`sales`
+SET `Discount` = CASE
+WHEN RAND() < 0.25 THEN 0
+WHEN RAND() < 0.50 THEN 5
+WHEN RAND() < 0.75 THEN 10
+ELSE 20
+END
+
+ALTER TABLE `walmart_data`.`sales`
+DROP COLUMN `TotalPrice`
