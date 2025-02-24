@@ -18,4 +18,4 @@ Schema:
 <br>
 <br>
 
-![Schema](/schema_walmart.png)
+![Schema](/Updated_schema_walamrt.png)
