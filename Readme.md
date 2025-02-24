@@ -18,4 +18,10 @@ Schema:
 <br>
 <br>
 
-![Schema](/Updated_schema_walamrt.png)
+![Schema](/diagrams/Updated_schema_walamrt.png)
+<br>
+Data Pipeline
+<br>
+<br>
+
+![Data Pipeline](/diagrams/data_pipeline.drawio.png)
